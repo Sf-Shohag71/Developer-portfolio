@@ -182,3 +182,39 @@ main {
 .contact .contact-form{
   padding-right: 70px;
 }
+/* Responsive Styles Section's */
+
+@media screen and (max-width: 576px) {
+  .banner, nav, nav ul{
+    flex-direction: column;
+  }
+  .banner img{
+    display: none;
+  }
+  .skills-container{
+    flex-direction: column;
+  }
+  .resume-content{
+    flex-direction: column;
+  }
+  .section-title{
+    padding: 0 10px;
+  }
+  .contact{
+    flex-direction: column;
+  }
+  .about{
+    padding: 130px 20px;
+  }
+  .about-info-container{
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  
+}
+
+.hide{
+  display: none;
+}
